@@ -1,0 +1,5 @@
+# Rollin function
+A working interpretation of the Rollin function, defined by François Rollin.
+
+[See this (french) blog post](https://lucas.bourneuf.net/blog/rollin-fonction.html)
+for context and explanations.

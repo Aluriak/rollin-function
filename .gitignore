@@ -1,0 +1,8 @@
+build/
+.cache/
+*.vim
+venv/
+venv-*/
+__pycache__/
+*.pyc
+dist/
