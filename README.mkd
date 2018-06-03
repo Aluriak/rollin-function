@@ -1,5 +1,23 @@
-# Rollin function
-A working interpretation of the Rollin function, defined by François Rollin.
+# Fonction de Rollin
+Une implémentation de la fonction de Rollin, définie par François Rollin.
 
-[See this (french) blog post](https://lucas.bourneuf.net/blog/rollin-fonction.html)
-for context and explanations.
+[Voir cet article de blog](https://lucas.bourneuf.net/blog/rollin-fonction.html)
+pour le contexte et les explications.
+
+
+## plots
+Deux méthodes de plot sont disponibles, et relativement équivalentes.
+L'une faite avec matplotlib, l'autre avec pyqtgraph.
+
+## Apprentissage, corpus, cache et génération
+- `parse_wiki.py`: parse des pages d'années de wikipédia pour récupérer les évènements
+- `rollin.py`: implémentation de la fonction de Rollin, avec tests
+- `markov.py`: implémentation d'un modèle de Markov pour apprentissage et génération aléatoire
+- `main.py`: utilise les trois précédents modules pour générer des prédictions pour les prochaines années Rollin
+
+Notez que le fichier `corpus.cache` contient un cache sur les données récupérées de wikipédia.
+Si vous changez les dates de ciblées, pensez à supprimer le fichier.
+
+## Info en continu
+Pour avoir un flux d'infos en continue, lancez le programme `info-en-continu.sh`.
+
