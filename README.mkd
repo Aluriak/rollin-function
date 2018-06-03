@@ -21,3 +21,4 @@ Si vous changez les dates de ciblées, pensez à supprimer le fichier.
 ## Info en continu
 Pour avoir un flux d'infos en continue, lancez le programme `info-en-continu.sh`.
 
+Amélioration à faire : mettre la musique d'une chaîne d'info en fond pendant la lecture.
