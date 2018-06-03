@@ -1,8 +1,9 @@
-build/
-.cache/
-*.vim
-venv/
-venv-*/
-__pycache__/
 *.pyc
+*.vim
+.cache/
+__pycache__/
+build/
+corpus.cache
 dist/
+venv-*/
+venv/
